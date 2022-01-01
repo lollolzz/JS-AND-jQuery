@@ -70,10 +70,9 @@ function handleTitleClick(){
     // }
     // h1.style.color = newColor;
     const clickedClass = "clicked sexy-font"
-    if(h1.className === clickedClass) { // === 해당 값이 맞는지 확인, = 해당값을 넣어주기
-        h1.className = "";
-    } else{
-        h1.className = clickedClass;
+    
+    function handleTitleClick() {
+        h1.classList.toggle("");
     }
 }
 
