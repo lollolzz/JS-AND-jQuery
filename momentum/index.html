@@ -10,14 +10,16 @@
 <body>
     <!-- JavaScript는 마지막 부분에 작성 하는 것이 좋다.-->
     <!-- input의 유효성 검사를 완성시키기 위하여서는 input이 form안에 있어야 한다. -->
-    <form id="login-form">
+    <form id="login-form" class="hidden">
         <input required 
         maxlength="15" 
         type="text" 
         placeholder="What is your name?" />
         <!-- required는 input을 필수 항목으로 만들어 주는 것 -->
         <input type="submit" value="Log In">
-    </form>    
+    </form>  
+    <h1 id="greeting" class="hidden"></h1>
+   
     <script src="app.js"></script>
 </body>
 </html>
